@@ -69,7 +69,7 @@ Command to consult all the notes of a user:
 ---- 
 	near view $CONTRACT queryNotesUser '{"userId":"string"}'
 
-🤖 Pruebas
+🤖 Test
 ---- 
 Use the following command to run the tests:
 
