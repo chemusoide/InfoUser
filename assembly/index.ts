@@ -27,7 +27,7 @@ export function queryUsers(): Array<User>{
 }
 
 
-// Method to consult all the notes of a user
+// Method to consult one user
 export function queryUser(userId: string): Array<User>{
   assert(userId.length>0,"The userId ir required");
   let result = new Array<User>();
